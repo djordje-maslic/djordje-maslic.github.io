@@ -163,6 +163,7 @@
     "addService": "Szolgáltatás hozzáadása",
     "deleteService": "{serviceName} törlése",
     "editServices": "Szolgáltatások szerkesztése",
+    "book_a_service":"Foglaljon szolgáltatást",
 
     "delete_free_time": "Időszak törlése",
     "free_time": "Szabadidő",

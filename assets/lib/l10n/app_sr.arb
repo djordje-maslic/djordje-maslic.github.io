@@ -173,6 +173,7 @@
        "addService": "Dodaj uslugu",
        "deleteService": "Izbriši uslugu {serviceName}",
        "editServices": "Izmeni usluge",
+       "book_a_service":"Zakaži servis",
 
        "delete_free_time": "Izbriši slobodno vreme",
        "free_time": "Slobodno vreme",
