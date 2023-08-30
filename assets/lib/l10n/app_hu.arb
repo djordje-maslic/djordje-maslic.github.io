@@ -238,6 +238,7 @@
     "blocking_this_user_will_deny_their_access_to_the_app_are_you_sure_you_want_to_proceed": "A felhasználó blokkolása megtagadja hozzáférését az alkalmazáshoz. Biztosan folytatni szeretné?",
     "unblocking_this_user_will_allow_their_access_to_the_app_are_you_sure_you_want_to_proceed": "A felhasználó blokkolásának feloldása lehetővé teszi hozzáférésüket az alkalmazáshoz. Biztosan folytatni szeretné?",
 
-"please_reauthenticate_for_security_purposes_your_recent_login_has_expired_and_we_want_to_ensure_the_protection_of_your_account":"Kérjük, végrehajtás előtt újra hitelesítse magát biztonsági okokból. A legutóbbi bejelentkezési munkamenet lejárt, és az Ön fiókjának védelme érdekében szeretnénk megerősíteni az azonosságát."
+"please_reauthenticate_for_security_purposes_your_recent_login_has_expired_and_we_want_to_ensure_the_protection_of_your_account":"Kérjük, végrehajtás előtt újra hitelesítse magát biztonsági okokból. A legutóbbi bejelentkezési munkamenet lejárt, és az Ön fiókjának védelme érdekében szeretnénk megerősíteni az azonosságát.",
 
+"preview": "Előnézet"
 }

@@ -460,5 +460,8 @@
 "@unblocking_this_user_will_allow_their_access_to_the_app_are_you_sure_you_want_to_proceed":{"description":"explanation in unblock user dialog"},
 
 "please_reauthenticate_for_security_purposes_your_recent_login_has_expired_and_we_want_to_ensure_the_protection_of_your_account":"Please reauthenticate for security purposes. Your recent login has expired, and we want to ensure the protection of your account.",
-"@please_reauthenticate_for_security_purposes_your_recent_login_has_expired_and_we_want_to_ensure_the_protection_of_your_account":{"description":"requires recent login dialog message"}
+"@please_reauthenticate_for_security_purposes_your_recent_login_has_expired_and_we_want_to_ensure_the_protection_of_your_account":{"description":"requires recent login dialog message"},
+
+"preview":"Preview",
+"@preview":{"description":"preview button title"}
  }

@@ -250,6 +250,7 @@
        "blocking_this_user_will_deny_their_access_to_the_app_are_you_sure_you_want_to_proceed": "Blokiranje ovog korisnika će im uskratiti pristup aplikaciji. Da li ste sigurni da želite da nastavite?",
        "unblocking_this_user_will_allow_their_access_to_the_app_are_you_sure_you_want_to_proceed": "Odblokiranje ovog korisnika će im omogućiti pristup aplikaciji. Da li ste sigurni da želite da nastavite?",
 
-        "please_reauthenticate_for_security_purposes_your_recent_login_has_expired_and_we_want_to_ensure_the_protection_of_your_account":"Molimo vas da se ponovo autentifikujete iz sigurnosnih razloga. Vaša nedavna prijava je istekla, i želimo da obezbedimo zaštitu vašeg naloga."
+        "please_reauthenticate_for_security_purposes_your_recent_login_has_expired_and_we_want_to_ensure_the_protection_of_your_account":"Molimo vas da se ponovo autentifikujete iz sigurnosnih razloga. Vaša nedavna prijava je istekla, i želimo da obezbedimo zaštitu vašeg naloga.",
 
+        "preview": "Pregled"
         }
