@@ -3,64 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Simple Web Page</title>
+    <title>Maslic Djordje - Flutter Developer</title>
     <style>
-        html {
-            background-color: #455A64;
-            height: 100%;
-        }
-
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #455A64;
-            color: #FFFFFF;
-            min-height: 100%;
-            position: relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
         }
 
         header {
+            background-color: #455A64;
+            color: #FFFFFF;
+            padding: 20px;
             text-align: center;
-            padding: 10px;
-            background-color: #f0f0f0;
         }
 
-        main {
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        nav {
+            background-color: #263238;
+            color: #FFFFFF;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #FFFFFF;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        section {
             padding: 20px;
         }
 
         footer {
+            background-color: #263238;
+            color: #FFFFFF;
             text-align: center;
             padding: 10px;
-            background-color: #f0f0f0;
-        }
-
-        /* Add button styles */
-        .login-button {
-            position: absolute;
-            bottom: 20px;
-            left: 20px;
-            padding: 10px 20px;
-            background-color: #f0f0f0;
-            border: 1px solid #FFFFFF;
-            border-radius: 20px;
-            color: #455A64;
-            text-decoration: none;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Your Simple Web Page</h1>
+        <h1>Maslic Djordje</h1>
+        <p>Flutter Developer</p>
     </header>
-    <main>
-        <p>This is a simple web page. You can replace this text with your own content.</p>
-    </main>
-    <footer>
-        <p>&copy; 2023 Your Company</p>
-    </footer>
 
-    <!-- Add login button with link to https://karikapromet.rs/ -->
-    <a href="https://karikapromet.rs/" class="login-button">Log in</a>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm Maslic Djordje, a passionate Flutter developer based in Subotica, Serbia. I specialize in creating multi-platform applications for a variety of screens.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Add your projects and work here -->
+        <p>Coming soon...</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me:</p>
+        <p>Email: <a href="mailto:djooordje@gmail.com">djooordje@gmail.com</a></p>
+        <p>LinkedIn: linkedin.com/in/yourlinkedin</p>
+        <!-- Add more contact information as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Maslic Djordje</p>
+    </footer>
 </body>
 </html>
