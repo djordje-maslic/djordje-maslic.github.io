@@ -18,6 +18,10 @@
             color: #FFFFFF;
             padding: 20px;
             text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            transition: top 0.3s;
         }
 
         h1 {
@@ -42,6 +46,7 @@
         section {
             padding: 20px;
             text-align: center;
+            margin-top: 80px; /* Adjusted margin to account for fixed header */
         }
 
         section img {
@@ -76,7 +81,7 @@
     </style>
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1>Maslic Djordje</h1>
         <p>Flutter Developer</p>
     </header>
@@ -117,24 +122,34 @@
     <div id="scrollToTopBtn" onclick="scrollToTop()">Scroll to Top</div>
 
     <script>
-        // Show/Hide Scroll to Top Button
-        window.onscroll = function() {
-            scrollFunction();
-        };
+        // Show/Hide Scroll to Top Button and Persistent Header
+        let prevScrollpos = window.pageYOffset;
+        const header = document.getElementById("header");
 
-        function scrollFunction() {
-            const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+        window.onscroll = function() {
+            const currentScrollPos = window.pageYOffset;
+
+            // Show/hide Scroll to Top Button
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                scrollToTopBtn.style.display = "block";
+                document.getElementById("scrollToTopBtn").style.display = "block";
             } else {
-                scrollToTopBtn.style.display = "none";
+                document.getElementById("scrollToTopBtn").style.display = "none";
             }
-        }
+
+            // Show/hide Persistent Header
+            if (prevScrollpos > currentScrollPos) {
+                header.style.top = "0";
+            } else {
+                header.style.top = "-80px"; /* Adjusted negative top value to hide header */
+            }
+
+            prevScrollpos = currentScrollPos;
+        };
 
         // Scroll to Top Function
         function scrollToTop() {
             document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
         }
     </script>
 </body>
