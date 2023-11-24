@@ -60,6 +60,19 @@
             bottom: 0;
             width: 100%;
         }
+
+        /* Scroll to Top Button */
+        #scrollToTopBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #455A64;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border-radius: 10px;
+            display: none;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -99,6 +112,31 @@
     <footer>
         <p>&copy; 2023 Maslic Djordje</p>
     </footer>
+
+    <!-- Scroll to Top Button -->
+    <div id="scrollToTopBtn" onclick="scrollToTop()">Scroll to Top</div>
+
+    <script>
+        // Show/Hide Scroll to Top Button
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        }
+
+        // Scroll to Top Function
+        function scrollToTop() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
 </body>
 </html>
 
